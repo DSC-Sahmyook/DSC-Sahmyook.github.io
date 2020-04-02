@@ -45,9 +45,11 @@
 	</nav>
 		{% if page.noimage %}
 		{% else %}
+		<div class="header-img-wrapper">
 		<img
 			alt="{{ page.title }}"
-			src="/assets/images/{{page.id}}/top.jpg" class="img-responsive">
+			src="/assets/images/{{page.id}}/top.jpg" class="header-image">
+		</div>
 		{% endif %}
 
 	<div class="jumbotron  clearfix">
