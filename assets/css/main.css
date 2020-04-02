@@ -176,13 +176,3 @@ h3:before {
 		background-color: #12421f;
 	}
 }
-
-.header-img {
-	width: 100%;
-}
-
-@media (max-height: 500px) {
-	.header-img-wrapper{
-		height: auto;
-	}
-}
